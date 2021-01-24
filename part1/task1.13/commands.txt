@@ -1,0 +1,2 @@
+docker build -t java-spring .
+docker container run --name java-spring -d -p 5000:8080 java-spring
