@@ -1,0 +1,7 @@
+Commands:
+docker container run -d -it --name bash_exercise devopsdockeruh/exec_bash_exercise
+docker container exec -it bash_exercise bash
+tail -f ./logs.txt
+
+Secret message:
+"Docker is easy"
