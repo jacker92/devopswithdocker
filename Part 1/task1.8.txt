@@ -1,0 +1,1 @@
+docker container run --name first_volume -it -v "$(pwd)/logs/logs.txt:/usr/app/logs.txt" devopsdockeruh/first_volume_exercise
