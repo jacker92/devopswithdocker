@@ -1,0 +1,1 @@
+docker container run --name ports -it -p 80:80 devopsdockeruh/ports_exercise
