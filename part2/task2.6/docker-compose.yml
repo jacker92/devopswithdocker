@@ -1,0 +1,23 @@
+version: '3.5'
+
+services: 
+    postgres:
+      image: postgres
+      restart: unless-stopped
+      environment:
+      - POSTGRES_PASSWORD=password
+    backend:
+      image: backend
+      ports:
+        - 8000:8000
+      environment:
+      - REDIS=redis
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=password
+      - DB_HOST=postgres
+    redis:
+      image: redis
+    frontend:
+      image: frontend
+      ports: 
+      - 5000:5000
