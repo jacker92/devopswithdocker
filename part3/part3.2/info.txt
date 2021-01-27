@@ -1,0 +1,5 @@
+Application url:
+https://cookbook-backend-api.herokuapp.com/
+
+GitHub page:
+https://github.com/jacker92/cookbook-backend
