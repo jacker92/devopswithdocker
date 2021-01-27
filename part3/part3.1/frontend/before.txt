@@ -1,0 +1,14 @@
+IMAGE          CREATED         CREATED BY                                      SIZE      COMMENT
+86e506c0e05a   2 minutes ago   CMD ["npm" "start"]                             0B        buildkit.dockerfile.v0
+<missing>      2 minutes ago   EXPOSE map[5000/tcp:{}]                         0B        buildkit.dockerfile.v0
+<missing>      2 minutes ago   RUN /bin/sh -c apt-get update && apt-get ins…   145MB     buildkit.dockerfile.v0
+<missing>      2 minutes ago   ENV API_URL=http://localhost                    0B        buildkit.dockerfile.v0
+<missing>      2 minutes ago   COPY . . # buildkit                             265B      buildkit.dockerfile.v0
+<missing>      3 days ago      WORKDIR /app                                    0B        buildkit.dockerfile.v0
+<missing>      6 days ago      /bin/sh -c #(nop)  CMD ["/bin/bash"]            0B        
+<missing>      6 days ago      /bin/sh -c mkdir -p /run/systemd && echo 'do…   7B        
+<missing>      6 days ago      /bin/sh -c [ -z "$(apt-get indextargets)" ]     0B        
+<missing>      6 days ago      /bin/sh -c set -xe   && echo '#!/bin/sh' > /…   811B      
+<missing>      6 days ago      /bin/sh -c #(nop) ADD file:2a90223d9f00d31e3…   72.9MB    
+REPOSITORY   TAG       IMAGE ID       CREATED         SIZE
+frontend     latest    86e506c0e05a   3 minutes ago   218MB
