@@ -1,0 +1,22 @@
+IMAGE          CREATED              CREATED BY                                      SIZE      COMMENT
+6530b71d7ade   About a minute ago   CMD ["npm" "start"]                             0B        buildkit.dockerfile.v0
+<missing>      About a minute ago   EXPOSE map[8000/tcp:{}]                         0B        buildkit.dockerfile.v0
+<missing>      About a minute ago   USER app                                        0B        buildkit.dockerfile.v0
+<missing>      About a minute ago   RUN /bin/sh -c apt-get update &&     npm ins…   18.7MB    buildkit.dockerfile.v0
+<missing>      About a minute ago   ENV FRONT_URL=http://localhost:5000             0B        buildkit.dockerfile.v0
+<missing>      About a minute ago   COPY . . # buildkit                             232kB     buildkit.dockerfile.v0
+<missing>      6 minutes ago        WORKDIR /app                                    0B        buildkit.dockerfile.v0
+<missing>      21 hours ago         /bin/sh -c #(nop)  CMD ["node"]                 0B        
+<missing>      21 hours ago         /bin/sh -c #(nop)  ENTRYPOINT ["docker-entry…   0B        
+<missing>      21 hours ago         /bin/sh -c #(nop) COPY file:238737301d473041…   116B      
+<missing>      21 hours ago         /bin/sh -c set -ex   && for key in     6A010…   8.47MB    
+<missing>      21 hours ago         /bin/sh -c #(nop)  ENV YARN_VERSION=1.22.5      0B        
+<missing>      21 hours ago         /bin/sh -c ARCH= && dpkgArch="$(dpkg --print…   66.5MB    
+<missing>      21 hours ago         /bin/sh -c #(nop)  ENV NODE_VERSION=10.23.2     0B        
+<missing>      2 weeks ago          /bin/sh -c groupadd --gid 1000 node   && use…   333kB     
+<missing>      2 weeks ago          /bin/sh -c set -ex;  apt-get update;  apt-ge…   561MB     
+<missing>      2 weeks ago          /bin/sh -c apt-get update && apt-get install…   142MB     
+<missing>      2 weeks ago          /bin/sh -c set -ex;  if ! command -v gpg > /…   7.81MB    
+<missing>      2 weeks ago          /bin/sh -c set -eux;  apt-get update;  apt-g…   23.2MB    
+<missing>      2 weeks ago          /bin/sh -c #(nop)  CMD ["bash"]                 0B        
+<missing>      2 weeks ago          /bin/sh -c #(nop) ADD file:166cd044a29ad501c…   101MB     
